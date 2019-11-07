@@ -134,6 +134,7 @@ h6 {
 
 .tagline {
     font-size: 2em;
+    font-family: helvetica, sans-serif;
     color: red;
     
 }
@@ -147,8 +148,12 @@ h6 {
 .attractor {
     font-size: 1.5em;
     color: green;
+    font-family: helvetica, sans-serif;
 } 
     
+p {
+    font-family: helvetica, sans-serif;
+}
 
 .navcontainer ul li a:hover {
     background-color: #369;
