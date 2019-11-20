@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Gentium Book Basic', serif;
     font-weight: 400;
@@ -14,6 +13,15 @@ body {
     margin: 0 auto;
 }
 
+.img {
+    border: 5px;
+    padding: 3px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto
+}
 
 
 /* NOTE: to be save add the following to the block element right after the Nav in your HTML. Change .WhateverNextElementIs to a selector for the element. */
@@ -37,7 +45,7 @@ html {
    NOTE: most Navigations use list items so you will need to 
    explicity set the margins on those so this rule doesn't 
    mess up your navigation styling */
-p{
+p {
     margin-top: 0;
     margin-bottom: 1em;
 }
@@ -61,7 +69,7 @@ h1 {
     margin: 0 0 0.5em 0;
     color: navy;
     color: #123456;
-    
+
 }
 
 h2 {
@@ -110,11 +118,12 @@ h6 {
     padding: 2%;
 }
 
-.nav li{
+.nav li {
     display: inline;
     margin-left: 2%;
 }
-.nav a{
+
+.nav a {
     text-decoration: none;
     padding: 2%;
 }
@@ -136,21 +145,21 @@ h6 {
     font-size: 2em;
     font-family: helvetica, sans-serif;
     color: red;
-    
+
 }
 
 
 .nav a {
     color: #fff;
 }
-    
+
 
 .attractor {
     font-size: 1.5em;
     color: green;
     font-family: helvetica, sans-serif;
-} 
-    
+}
+
 p {
     font-family: helvetica, sans-serif;
 }
@@ -160,11 +169,7 @@ p {
     color: #fff;
 }
 
- <--end-of-home-pg-->
- <--retrieval--page-->
-
-
-.navcontainer ul li a {
+<--end-of-home-pg-- > <--retrieval--page-- > .navcontainer ul li a {
     padding: 0.2em 1em;
     background-color: #036;
     color: White;
@@ -175,11 +180,10 @@ p {
 
 h3 {
     font-size: 2em;
-    color:black;
-    }  
+    color: black;
+}
 
-<--end-of-retrieval-page-->
-
+<--end-of-retrieval-page-- >
 }
 
 /* change current item to be the highlighted rollover color */
@@ -187,5 +191,3 @@ h3 {
     background-color: #369;
     color: #fff;
 }
-
-
