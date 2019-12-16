@@ -2,6 +2,30 @@
 <html lang="en-us">
 
 <head>
+
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>
+        <header class="site-header">
+            <div class="topnav" id="myTopnav">
+                <li><a href="index.html">Home</a>
+                    <a href="retrieval.html">Retrieval Practice</a>
+                    <a href="spacedpractice.html">Spaced Practice</a>
+                    <a href="elaboration.html">Elaboration</a>
+                    <a href="interleaving.html">Interleaving</a>
+                    <a href="concreteexamples.html">Concrete Examples</a>
+                    <a href="dualcoding.html">Dual Coding</a>
+                    <a href="about.html">About</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+            </div>
+        </header>
+    </title>
+
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Change to Your Title</title>
@@ -14,8 +38,7 @@
 <body>
     <div id="wrapper">
         <header>
-            <h1>Retrieval Practice</h1>
-            <h4>Smart Study Skills</h4>
+            <h1>Smart Study Skills</h1>
             <nav class="nav" role="navigation">
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -29,11 +52,10 @@
         <main role="main">
             <!-- add main page content here -->
 
+            <h2 class="page-title">Retrieval Practice</h2>
 
             <p class="attractor">
-                A for Effort. Believe it or not, the act of trying to remember things
-                will make you
-                better at remembering them.
+                <img src="images/%20A=Effort.jpg" alt="girl in front of chalkboard" />
             </p>
 
             <section class="what">
@@ -56,9 +78,9 @@
                     follow.</p>
                 <h4>MoreRefined:</h4>
                 <p>each time you access your memory it changes a bit and gets better organized and stored in your memory.</p>
-                <h4>More Connections:</h4>
+                <h4>More Connections</h4>
                 <p>our memories are connected to each other and the more we access
-                    them.</p>
+                    them</p>
                 <h4>Know what you know and don’t know:</h4>
                 <p>going through the process shows you want you remember and what you don’t so you know what you need to work on.</p>
 
@@ -97,10 +119,10 @@
                 </ul>
             </section>
 
-            <h3>Resources:</h3>
+            <h2>Resources:</h2>
 
             <section class="downloads">
-                <h4>Downloads</h4>
+                <h3>Downloads</h3>
                 <ul>
                     <li>[1 page quick guide] Learn to Study Using Retrieval Practice <a href="https://www.learningscientists.org/s/Retrieval-Practice-7fws.pdf">https://www.learningscientists.org/s/Retrieval-Practice-7fws.pdf</a></li>
                     <li>[concept map] <a href="https://www.learningscientists.org/blog/2016/4/1-1">https://www.learningscientists.org/blog/2016/4/1-1</a></li>
@@ -110,7 +132,7 @@
             </section>
 
             <section class="videos">
-                <h4>Videos</h4>
+                <h3>Videos</h3>
                 <ul>
                     <li>[video 2:59] Study Strategies: Retrieval Practice</li>
                 </ul>
@@ -118,7 +140,7 @@
             </section>
 
             <section class="podcastsandwevsites">
-                <h4>Podcasts and web sites</h4>
+                <h3>Podcasts and web sites</h3>
                 <ul>
                     <li>
                         <a href="https://www.learningscientists.org/learning-scientists-podcast/2017/9/6/episode-2-retrieval-practice">[poscast 21:09] The Learning Scientists, episode 2: Retrieval Practice</a></li>
@@ -147,7 +169,17 @@
             <!-- add site-wide footer content here -->
         </footer>
 
-    </div>
-</body>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
 
-</html>
+
+    </div>
+</body></html>

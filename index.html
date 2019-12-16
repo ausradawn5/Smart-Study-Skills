@@ -2,12 +2,38 @@
 <html lang="en-us">
 
 <head>
+
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>
+        <header class="site-header">
+            <div class="topnav" id="myTopnav">
+                <li><a href="index.html">Home</a>
+                    <a href="retrieval.html">Retrieval Practice</a>
+                    <a href="spacedpractice.html">Spaced Practice</a>
+                    <a href="elaboration.html">Elaboration</a>
+                    <a href="interleaving.html">Interleaving</a>
+                    <a href="concreteexamples.html">Concrete Examples</a>
+                    <a href="dualcoding.html">Dual Coding</a>
+                    <a href="about.html">About</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+            </div>
+        </header>
+    </title>
+
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Change to Your Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
+
 
 <body>
     <div id="wrapper">
@@ -16,18 +42,23 @@
 
             <nav class="nav" role="navigation">
                 <ul>
+                    <li class="icon"><a href="javascript:void(0);" onclick="myFunction()">&#9776;</a></li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="retrieval.html">Retrieval Practice</a></li>
+                    <li><a href="dual">Dual Coding</a></li>
+                    <li><a href="elaboration">Elaboration</a></li>
+                    <li><a href="interleaving">Interleaving</a></li>
+                    <li><a href="spaced">Spaced Practiced</a></li>
                     <li><a href="about.html">About</a></li>
+
                 </ul>
             </nav>
             <!-- add site wide header content here -->
         </header>
 
-        <div class="img">
-            <img class="responsive" src="images/people.jpg" alt="studying" />
-            <p>image credits ; user: StockSnap , Pixabay. </p>
-        </div>
+          <center>
+        <img src="images/people.jpg" />
+        </center>
 
         <main role="main">
             <p class="tagline"> Study smarter, not harder</p>
@@ -81,6 +112,19 @@
                 <p>Designed by Ausra Compy</p>
             </div> <!-- add site-wide footer content here -->
         </footer>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+
+        </script>
+
 
     </div>
     <!--end of wrapper-->
