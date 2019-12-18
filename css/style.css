@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: 'Gentium Book Basic', serif;
     font-weight: 400;
@@ -80,6 +86,7 @@ h6 {
 
 h1 {
     font-size: 3em;
+    font-size: .8em;
     line-height: 1;
     margin: 0 0 0.5em 0;
     color: navy;
@@ -88,7 +95,7 @@ h1 {
 }
 
 h2 {
-    font-size: 3.375em;
+    font-size: 2em;
     line-height: 1.2;
     margin: 1.5em 0 0.5em 0;
 }
@@ -200,4 +207,13 @@ h3 {
 .navcontainer ul li a.current {
     background-color: #369;
     color: #fff;
+}
+
+a
+{
+    color: navy;
+}
+a:hover
+{
+    color: lightskyblue;
 }

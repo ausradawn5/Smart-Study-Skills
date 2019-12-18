@@ -1,5 +1,32 @@
 @media (min-width: 1200px){
 
           /* this applies average laptops */
+    .skills{
+        width: 100%;
+        float: left;
+    }
 
-    }/*   end min-width 1200 */
+    .skill{
+     width: 31%;
+     float: left;
+        margin: 0 2%;
+    }
+
+    .skilled{
+        width: 100%;
+        float: left;
+    }
+
+    .what, .why, .how, .when{
+        width: 46%;
+        float: left;
+        margin: 0 2%;
+
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+
+}/*   end min-width 1200 */

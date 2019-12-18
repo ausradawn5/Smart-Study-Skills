@@ -2,4 +2,18 @@
 
          /* this applies to mobile in landscape and some tablets in portrait */
 
-    }/*   end min-width 600 */
+   .skills{
+        width: 100%;
+        float: left;
+    }
+
+    .skill{
+         width: 50%;
+         float: left;
+    }
+
+     h1{
+        font-size: 1em;
+    }
+
+}/*   end min-width 600 */
