@@ -41,9 +41,9 @@
 
             <h2 class="page-title">Retrieval Practice</h2>
 
-            <p class="attractor">
-                <img src="images/%20A=Effort.jpg" alt="girl in front of chalkboard" />
-            </p>
+            <div class="attractor">
+                <img src="images/A=Effort.jpg"  alt="girl in front of chalkboard" />
+            </div>
 
 
 
@@ -58,7 +58,18 @@
                         Research has shown this to be one of the most effective study techniques.</p>
                 </section>
 
-                <img src="images/read.jpg" alt="wooden carving studying" />
+                <div class="responsive-image">
+                    <img src="images/read.jpg"  alt="wooden carving studying" />
+
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="images/xsmall.jpg">
+                        <source media="(max-width: 900px)" srcset="images/small.jpg">
+                        <source media="(max-width: 1200px)" srcset="images/medium.jpg">
+                        <source media="(min-width: 1201px)" srcset="images/large.jpg">
+                        <img src="images/medium.jpg" alt="wooden carving studying">
+                    </picture>
+
+                </div>
 
                 <section class="why">
                     <h3>Why is it effective?</h3>
@@ -117,8 +128,8 @@
             <section class="downloads">
                 <h3>Downloads</h3>
                 <ul>
-                    <li>[1 page quick guide] Learn to Study Using Retrieval Practice <a href="https://www.learningscientists.org/s/Retrieval-Practice-7fws.pdf">https://www.learningscientists.org/s/Retrieval-Practice-7fws.pdf</a></li>
-                    <li>[concept map] <a href="https://www.learningscientists.org/blog/2016/4/1-1">https://www.learningscientists.org/blog/2016/4/1-1</a></li>
+                    <li> Learn to Study Using Retrieval Practice <a href="https://www.learningscientists.org/s/Retrieval-Practice-7fws.pdf">https://www.learningscientists.org/s/Retrieval-Practice-7fws.pdf</a></li>
+                    <li> <a href="https://www.learningscientists.org/blog/2016/4/1-1">https://www.learningscientists.org/blog/2016/4/1-1</a></li>
                     <li>[pdf booklet] How to use Retrieval Practice to Improve Learning (written more
                         for teachers)<a href="http://pdf.retrievalpractice.org/RetrievalPracticeGuide.pdf ">http://pdf.retrievalpractice.org/RetrievalPracticeGuide.pdf </a></li>
                 </ul>
@@ -174,11 +185,8 @@
                     x.className = "topnav";
                 }
             }
-
         </script>
 
 
     </div>
-</body>
-
-</html>
+</body></html>
