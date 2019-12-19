@@ -4,6 +4,10 @@
     border: none;
 }
 
+.attractor{
+    font-family: sans-serif, lato;
+}
+
 body {
     font-family: 'Gentium Book Basic', serif;
     font-weight: 400;

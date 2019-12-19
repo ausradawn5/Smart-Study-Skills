@@ -1,5 +1,15 @@
 
+h2 {
+  text-align: center;
+}
 
+.tagline{
+    text-align: center;
+}
+
+.attractor{
+    text-align: center;
+}
 
 /* Add a dark grey background color to the top navigation */
 .topnav {
