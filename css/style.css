@@ -41,7 +41,7 @@ html {
     padding-top: 25px;
     height: 0;
     clear: both;
-    outline: 1px solid red;
+    outline: 1px solid white;
 }
 
 .videoWrapper.ratio-16-9 {
@@ -163,10 +163,11 @@ h6 {
     border-right: 1px solid #fff;
 }
 
+
 .tagline {
     font-size: 2em;
-    font: arial, helvetica, sans-serif;
-    color: red;
+    font-family: lato, sans-serif;
+    color: #e09660;
 
 }
 
@@ -178,7 +179,7 @@ h6 {
 
 .attractor {
     font-size: 1.5em;
-    color: green;
+    color: #4f9bf7;
 }
 
 
